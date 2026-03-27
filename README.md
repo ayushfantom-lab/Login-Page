@@ -1,2 +1,2 @@
-# Login-Page
-C++ wxWidgets Login and Register Desktop App – A simple GUI login system built in C++ using the wxWidgets framework. Users can register with a username and password (stored in a users.txt file) and log in with validation, demonstrating basic file‑based user authentication and wxWidgets UI handling.
+#C++ wxWidgets Login and Register App
+A simple desktop login and registration system built in C++ using the wxWidgets GUI framework. Users can register an account and log in, with usernames and passwords stored in a plain‑text file (users.txt).
