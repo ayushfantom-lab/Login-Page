@@ -1,44 +1,22 @@
-# ────────────────────────────────────────────────
-# Build / IDE files
-# ────────────────────────────────────────────────
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Build / compiler
 *.o
-*.obj
 *.exe
 *.out
-*.dll
-*.so
-*.dylib
-*.lib
-*.a
-*.pdb
 *.ilk
+*.pdb
 *.map
 
-# ────────────────────────────────────────────────
-# wxWidgets / compiler temp files
-# ────────────────────────────────────────────────
-*.sln
-*.suo
-*.vcproj
-*.vcxproj
-*.vcxproj.filters
-*.vcxproj.user
-*.cbp
-*.depend
-*.swp
-*.swo
-*.lock
-
-# ────────────────────────────────────────────────
-# Generated files specific to your project
-# ────────────────────────────────────────────────
+# wxWidgets / generic C++
 build/
 cmake-build-*/
 Debug/
 Release/
-bin/
 
-# ────────────────────────────────────────────────
-# User data file (do not commit passwords!)
-# ────────────────────────────────────────────────
+# Your user data (important not to push)
 users.txt
